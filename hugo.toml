@@ -1,0 +1,91 @@
+baseURL = "https://blog.ozline.icu/"
+languageCode = "zh-CN"
+title = "ozlinex's blog"
+theme = ["PaperMod"]
+paginate = 5
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainSections = ["posts", "2018", "2022"]
+
+[minify]
+disableXML = true
+
+[permalinks]
+posts = "/:year/:filename/"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Archive'
+    pageRef = '/archives'
+    weight = 20
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 30
+  [[menus.main]]
+    name = 'Search'
+    pageRef = '/search'
+    weight = 40
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+  env = "production"
+  description = "ozline's blog"
+  author = "ozline"
+  defaltTheme = "auto"
+  ShowReadingTime = true
+  displayFullLangName = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+  Title = "ozline"
+  Content = """
+- (I'm) a student majoring in software engineering(SE) at **Fuzhou University**, China.
+-
+- (I) excel in engineering development utilizing **golang**.
+- (I) have interests in *<u>containers</u>*, *<u>virtualization</u>*, *<u>distributed systems</u>* and *<u>Linux</u>*.
+- (I'm) an Apple fan and like photography.
+-
+- (I) also write quite a few articles on [wiki.west2.online](https://wiki.west2.online/)
+"""
+
+  [[params.socialIcons]]
+  name = "github"
+  title = "View My Github"
+  url = "https://github.com/ozline"
+
+  [[params.socialIcons]]
+  name = "X"
+  title = "Contact Me on X/Twitter"
+  url = "https://x.com/ozliinex"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
