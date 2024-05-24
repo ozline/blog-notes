@@ -55,6 +55,16 @@ home = [ "HTML", "RSS", "JSON" ]
   ShowAllPagesInArchive = true
   ShowPageNums = true
   ShowToc = true
+  ShowWordCount = true
+  UseHugoToc = true
+  ShowPostNavLinks = true
+  hidemeta = false
+  hideSummary = true
+
+  [params.editPost]
+    URL = "https://github.com/ozline/blog-notes/edit/main/content"
+    Text = "提出问题"
+    appendFilePath = true
 
   [params.homeInfoParams]
   Title = "ozline"
