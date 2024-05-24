@@ -10,7 +10,7 @@ buildFuture = false
 buildExpired = false
 enableEmoji = true
 pygmentsUseClasses = true
-mainSections = ["posts", "2018", "2022"]
+mainSections = ["posts"]
 
 [minify]
 disableXML = true

@@ -1,7 +1,7 @@
 +++
 title = 'DFS实现Bilibili视频评论爬虫'
 date = 2021-11-15T01:29:43+08:00
-draft = true
+tags = ["experiment"]
 +++
 
 > 这篇文章写的很烂，但它是我第一个相对正式且具备一定代码量的 golang 项目，我保留它
