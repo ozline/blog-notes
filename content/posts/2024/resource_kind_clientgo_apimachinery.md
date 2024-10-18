@@ -1,6 +1,6 @@
 +++
 title = 'resource/kind, client-go 和 apimachinery'
-date = 2023-08-27T15:00:00+08:00
+date = 2024-08-27T15:00:00+08:00
 tags = ["container"]
 +++
 
